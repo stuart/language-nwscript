@@ -1,0 +1,21 @@
+{
+  "name": "language-nwscript",
+  "main": "./lib/language-nwscript",
+  "version": "0.0.2",
+  "description": "Syntax highlighting for NWscript",
+  "keywords": [],
+  "repository": "https://github.com/atom/language-nwscript",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tree-sitter-nwscript": "1.0.2"
+  },
+  "activationCommands": {
+    "atom-workspace": "nwscript:activate"
+  },
+  "activationHooks": {
+    "language-nwscript" : "grammar-used"
+  }
+}

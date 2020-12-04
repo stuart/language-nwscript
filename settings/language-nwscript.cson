@@ -1,0 +1,15 @@
+'.source.nwscript':
+  'editor':
+    'commentStart': '// '
+    'increaseIndentPattern': '(?x)
+       ^ .* \\{ [^}"\']* $
+      |^ .* \\( [^\\)"\']* $
+      |^ \\s* \\{ \\} $
+      '
+    'decreaseIndentPattern': '(?x)
+       ^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\}
+      |^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\)
+      '
+'.source.nwscript':
+  'editor':
+    'foldEndPattern': '(?<!\\*)\\*\\*/|^\\s*\\}'
