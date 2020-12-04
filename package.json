@@ -4,7 +4,7 @@
   "version": "0.0.2",
   "description": "Syntax highlighting for NWscript",
   "keywords": [],
-  "repository": "https://github.com/atom/language-nwscript",
+  "repository": "https://github.com/stuart/language-nwscript",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
