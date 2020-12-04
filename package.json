@@ -1,7 +1,7 @@
 {
   "name": "language-nwscript",
   "main": "./lib/language-nwscript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Syntax highlighting for NWscript",
   "keywords": [],
   "repository": "https://github.com/stuart/language-nwscript",
@@ -11,11 +11,5 @@
   },
   "dependencies": {
     "tree-sitter-nwscript": "1.0.2"
-  },
-  "activationCommands": {
-    "atom-workspace": "nwscript:activate"
-  },
-  "activationHooks": {
-    "language-nwscript" : "grammar-used"
   }
 }
