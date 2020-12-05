@@ -1,7 +1,7 @@
 {
   "name": "language-nwscript",
   "main": "./lib/language-nwscript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Syntax highlighting for NWscript",
   "keywords": [],
   "repository": "https://github.com/stuart/language-nwscript",
@@ -10,6 +10,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "tree-sitter-nwscript": "1.0.2"
+    "tree-sitter-nwscript": "1.0.3"
   }
 }
